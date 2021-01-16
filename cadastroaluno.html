@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyOn</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cadastroaluno.css">
+    <link rel="sortcut icon" href="icon.png" type="image/png" />
+</head>
+
+<body>
+    <nav class="barra" id="navinicial">
+        <div>
+            <a href="index.html"> <img src="Logo.png" alt="Logo StudyOn" id="logotipo"></a> 
+        </div>
+        <div>
+            <a href="patrocinadores.html"> <img src="Patrocinadores.png" alt="Patrocínio" id=patrocinadores></a> 
+        </div>
+        <div>
+            <a href="quemsomos.html"> <img src="Equipe.png" alt="Equipe" id="grupo"> </a>
+        </div>
+    </nav>
+    <section>
+        <h1 id="txt">Cadastro do Estudante</h1>
+        <h2 id="txt2">Legal! Agora, preencha os campos</br>
+            de acordo com os dados solicitados.</h2>
+        <article>
+            <img src="team at work_solid I.png" alt="Time trabalhando" id="imgaluno">
+        </article>
+    </section>
+    <main id="cadaluno">
+        <form method="POST" action="insere_usuarioAluno.php">
+            <div>
+                <label for="nome"><b>NOME:</b></label></br>
+                <input type="text" id="nome" placeholder="DIGITE SEU NOME" name="nome_aluno" required>
+            </div>
+            </br>
+            <div>
+                <label for="email"><b>E-MAIL:</b></label></br>
+                <input type="text" id="email" placeholder="INFORME SEU E-MAIL" name="email_aluno" required>
+            </div>
+            </br>
+            <div>
+                <label for="senha"><b>DEFINA UMA SENHA:</b></label></br>
+                <input type="password" id="senha" placeholder="********" name="senha" required>
+            </div>
+            </br>
+            <div>
+                <label for="acesso"><b>CHAVE DE ACESSO:</b></label></br>
+                <input type="text" id="nome" placeholder="INFORME A CHAVE" name="chave_de_acesso" required>
+            </div>
+            </br>
+            <input type="submit"name="enviar" id="enviar" value="Cadastrar">
+
+
+        </form>
+    </main>
+    </body>
+    </html>

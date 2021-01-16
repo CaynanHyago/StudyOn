@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+#navinicial{
+    background: #110040;
+    border-radius: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+
+#logotipo{
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+#pesquisa{
+    display: flex;
+    background-color:#5D21D1;
+    border-radius: 6px;
+    width:320px;
+    height: 35px;
+    position: absolute;
+    top: 9px;
+    left: 90px;
+}
+  
+#texto{
+    float:left;
+    font-size: 11px;
+    width: 180px;
+    background-color: #5D21D1;
+    border: #ffffff;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #9FACEE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#iconlupa{
+    width: 17px;
+    height: 17px;
+    margin-top: 7px;
+    margin-right: 2px;
+    margin-left: 90px;
+}
+
+#patrocinadores{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -5px;
+    left: 1150px;
+}
+
+#grupo{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 2px;
+    left: 1220px;
+}
+
+#txt{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #000000;
+    position: absolute;
+    top: 80px;
+    left: 480px;
+}
+
+#txt2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #000000;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    line-height: 1.2;
+}
+
+#imgaluno{
+    width: 810px;
+    height: 250px;
+    position: absolute;
+    top: 445px;
+    left: 240px;
+}
+
+#loginaluno{
+    position: absolute;
+    top: 190px;
+    left: 550px;
+}
+#enviar{
+    position: absolute;
+    left: 50px;
+    
+    }

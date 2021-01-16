@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyOn | Cadastro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cadprofessor.css">
+    <link rel="sortcut icon" href="icon.png" type="image/png" />
+    
+</head>
+
+<body>
+    <nav class="barra" id="navinicial">
+        <div>
+            <a href="index.html"> <img src="Logo.png" alt="Logo StudyOn" id="logotipo"></a> 
+        </div>     
+        <a href="patrocinadores.html"> <img src="Patrocinadores.png" alt="Patrocínio" id=patrocinadores></a> 
+        </div>
+        <div>
+            <a href="quemsomos.html"> <img src="Equipe.png" alt="Equipe" id="grupo"> </a>
+        </div>
+    </nav>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <section>
+        <article>
+            <h3 id="txt">Professor(a), é um prazer ter<br>
+                você com a gente! Por favor,<br>
+                preencha os campos de acordo<br>
+                com os dados solicitados<br>
+            </h3>
+        </article>
+        <article>
+            <img src="imgcadastroprofessor.jpg" alt="cadastro professor" id="img1">
+        </article>
+    </section>
+    <main id="cadform">
+        <form method="POST" action="insere_usuarioProfessor.php">
+        <div>
+            <label for="nome"><b>NOME:</b></label></br>
+            <input type="text" id="nome" placeholder="DIGITE SEU NOME" name="professor" required>
+        </div>
+        </br>
+        <div>
+            <label for="data"><b>DATA DE NASCIMENTO:</b></label></br>
+            <input type="text" id="data" placeholder="DATA DE NASCIMENTO" name="data_nasc" required>
+        </div>
+        </br>
+        <div>
+            <label for="CPF"><b>CPF:</b></label></br>
+            <input type="text" id="CPF" placeholder="DIGITE SEU CPF" name="CPF" required maxlength="14">
+        </div>
+        </br>
+        <div>
+            <label for="acesso"><b>CHAVE DE ACESSO:</b></label></br>
+            <input type="text" id="acesso" placeholder="INFORME A CHAVE" name="chave_de_acesso">
+        </div>
+        </br>
+                <input type="submit"name="enviar" id="enviar" value="Cadastrar">
+
+           
+
+        </form>
+    </main>
+</body>
+
+</html>

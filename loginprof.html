@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyOn</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/loginprof.css">
+    <link rel="sortcut icon" href="icon.png" type="image/png" />
+</head>
+
+<body>
+    <nav class="barra" id="navinicial">
+        <div>
+            <a href="index.html"> <img src="Logo.png" alt="Logo StudyOn" id="logotipo"></a> 
+        </div>
+        <div>
+            <a href="patrocinadores.html"> <img src="Patrocinadores.png" alt="Patrocínio" id=patrocinadores></a> 
+        </div>
+        <div>
+            <a href="quemsomos.html"> <img src="Equipe.png" alt="Equipe" id="grupo"> </a>
+        </div>
+    </nav>
+    <section>
+        <h1 id="txt">Login do Professor (a)</h1>
+        <article>
+            <img src="teaching_outline II.png" alt="Computador" id="imgprof">
+        </article>
+    </section>
+    <main id="loginprof">
+        <form method="POST" action="validacao_loginProfessor.php">
+            <div>
+                <label for="nome"><b>NOME COMPLETO:</b></label></br>
+                <input type="text" id="nome" placeholder="DIGITE SEU NOME" name="professor" required>
+            </div>
+            </br>
+            <div>
+                <label for="senha"><b>CPF:</b></label></br>
+                <input type="text" id="senha" placeholder="00000000000" name="CPF" required>
+            </div>
+            </br>
+            <input type="submit"name="enviar" id="enviar" value="LOGIN">
+
+
+        </form>
+    </main>
+</body>
+
+</html>
